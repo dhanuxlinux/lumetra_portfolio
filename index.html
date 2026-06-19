@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lumetra - The Light That Guides Creativity</title>
+  <link rel="icon" type="image/webp" href="lumetra-assets/logo.webp"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<!-- ══ NAV ═══════════════════════════════════════════════════ -->
+<nav>
+  <a class="nav-logo" href="#">
+    <img class="nav-logo-icon" src="lumetra-assets/logo.webp" alt="Lumetra Logo"/>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#story">Story</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a class="nav-cta" href="#contact">Get In Touch</a>
+  <div class="hamburger" onclick="toggleMenu(this)">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- ══ HERO ══════════════════════════════════════════════════ -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="beam"></div>
+  <div class="particles" id="particles"></div>
+  <div class="hero-content">
+    <img class="hero-logo" src="lumetra-assets/logo.webp" alt="Lumetra"/>
+    <span class="hero-eyebrow">Creative Agency</span>
+    <!-- Lumetra name image replaces plain text heading -->
+    <img class="hero-name-img" src="lumetra-assets/main_name_logo.webp" alt="Lumetra"/>
+    <p class="hero-tagline">The Light That Guides Creativity</p>
+    <div class="hero-actions">
+      <a href="#services" class="btn-primary">Explore Services</a>
+      <a href="#contact"  class="btn-outline">Work With Us</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-dot"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ══ STORY ══════════════════════════════════════════════════ -->
+<section class="story" id="story">
+  <div class="story-inner">
+    <div class="story-text reveal">
+      <span class="section-eyebrow">Our Story</span>
+      <h2 class="section-title">Every brand has a story to <span style="color:var(--orange)">tell</span></h2>
+      <div class="divider"></div>
+      <p>Many of those stories remain unseen, unheard, and lost in the noise. <strong>Lumetra was created to change that.</strong></p>
+      <p>The word <strong>"Lum"</strong> represents light. And our mission is simple - to bring light to ideas, to place brands in the spotlight, to guide creativity.</p>
+      <p>Lumetra is not just an advertising company. It is a <strong>creative force</strong>. We discover the true story behind every brand and bring it into the light.</p>
+      <p>Because we believe one thing: <strong>every great idea deserves to shine.</strong></p>
+      <p class="story-tagline"> Lumetra - The Light That Guides Creativity</p>
+    </div>
+    <div class="story-vis reveal">
+      <div class="story-hexagons">
+        <div style="position:absolute;width:160px;height:160px;border:2px solid rgba(255,77,0,.25);border-radius:50%;top:50%;left:50%;transform:translate(-50%,-50%);animation:spin-slow 20s linear infinite"></div>
+        <div style="position:absolute;width:260px;height:260px;border:1px solid rgba(255,77,0,.1);border-radius:50%;top:50%;left:50%;transform:translate(-50%,-50%);animation:spin-slow 30s linear infinite reverse"></div>
+        <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-family:'Montserrat',sans-serif;font-weight:900;font-size:4rem;color:var(--orange);opacity:.8;text-shadow:0 0 40px rgba(255,77,0,.5)">LM</div>
+        <div class="hex" style="top:10%;left:50%;transform:translateX(-50%);background:rgba(255,77,0,.1);border:1px solid rgba(255,77,0,.3);border-radius:8px;width:90px;height:50px;animation-duration:3.5s">Light</div>
+        <div class="hex" style="top:40%;right:0;background:rgba(255,77,0,.08);border:1px solid rgba(255,77,0,.2);border-radius:8px;width:90px;height:50px;animation-duration:4s;animation-delay:.5s">Create</div>
+        <div class="hex" style="bottom:10%;left:50%;transform:translateX(-50%);background:rgba(255,77,0,.1);border:1px solid rgba(255,77,0,.3);border-radius:8px;width:90px;height:50px;animation-duration:3s;animation-delay:1s">Shine</div>
+        <div class="hex" style="top:40%;left:0;background:rgba(255,77,0,.08);border:1px solid rgba(255,77,0,.2);border-radius:8px;width:90px;height:50px;animation-duration:4.5s;animation-delay:.2s">Guide</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SERVICES ═══════════════════════════════════════════════ -->
+<section class="services" id="services">
+  <div class="services-header reveal">
+    <span class="section-eyebrow">What We Do</span>
+    <h2 class="section-title">Our <span style="color:var(--orange)">Services</span></h2>
+    <div class="divider" style="margin:0 auto 20px"></div>
+    <p class="section-sub" style="margin:0 auto">From strategy to screen, a full spectrum of creative services built to make your brand shine.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal"><span class="service-icon">🎨</span><div class="service-name">Graphic Design</div><div class="service-desc">Visuals that speak before words do</div></div>
+    <div class="service-card reveal"><span class="service-icon">✦</span><div class="service-name">Brand Design</div><div class="service-desc">Identities built to last and be remembered</div></div>
+    <div class="service-card reveal"><span class="service-icon">📢</span><div class="service-name">Social Media Marketing</div><div class="service-desc">Campaigns that capture attention and convert</div></div>
+    <div class="service-card reveal"><span class="service-icon">📊</span><div class="service-name">Social Media Managing</div><div class="service-desc">Consistent presence across every platform</div></div>
+    <div class="service-card reveal"><span class="service-icon">💻</span><div class="service-name">Web Design</div><div class="service-desc">Digital experiences your audience won't forget</div></div>
+    <div class="service-card reveal"><span class="service-icon">🎬</span><div class="service-name">Video Editing</div><div class="service-desc">Polished cuts that tell your story</div></div>
+    <div class="service-card reveal"><span class="service-icon">🎞</span><div class="service-name">Production</div><div class="service-desc">Full-scale creative production, concept to final</div></div>
+    <div class="service-card reveal"><span class="service-icon">📹</span><div class="service-name">Videography</div><div class="service-desc">Cinematic quality for every occasion</div></div>
+    <div class="service-card reveal"><span class="service-icon">📷</span><div class="service-name">Photography</div><div class="service-desc">Moments frozen with intention and craft</div></div>
+    <div class="service-card reveal"><span class="service-icon">🌐</span><div class="service-name">3D Design</div><div class="service-desc">Depth and dimension brought to life</div></div>
+    <div class="service-card reveal"><span class="service-icon">🚀</span><div class="service-name">Campaign</div><div class="service-desc">End-to-end campaigns that move markets</div></div>
+    <div class="service-card reveal"><span class="service-icon">📡</span><div class="service-name">Live Streaming</div><div class="service-desc">Professional broadcast for every live moment</div></div>
+  </div>
+</section>
+
+<!-- ══ FEATURED PROJECTS ══════════════════════════════════════
+     Cards are generated automatically from projects.js
+     Edit projects.js to change titles, images, or categories.
+     ══════════════════════════════════════════════════════════ -->
+<section class="projects" id="projects">
+  <div class="projects-header reveal">
+    <span class="section-eyebrow">Our Work</span>
+    <h2 class="section-title">Featured <span style="color:var(--orange)">Projects</span></h2>
+    <div class="divider" style="margin:0 auto 20px"></div>
+    <p class="section-sub" style="margin:0 auto">A selection of work that captures Lumetra's commitment to light, craft, and brand storytelling.</p>
+  </div>
+  <!-- Project cards are injected here by script.js -->
+  <div id="projects-grid" class="projects-grid"></div>
+</section>
+
+<!-- ══ OUR PROCESS ════════════════════════════════════════════ -->
+<section class="process" id="process">
+  <div class="process-header reveal">
+    <span class="section-eyebrow">How We Work</span>
+    <h2 class="section-title">Our <span style="color:var(--orange)">Process</span></h2>
+    <div class="divider" style="margin:0 auto 20px"></div>
+    <p class="section-sub" style="margin:0 auto">Every great project follows a clear path - from first conversation to final delivery.</p>
+  </div>
+  <div class="process-steps reveal">
+
+    <!-- 01 DISCOVER -->
+    <div class="process-step">
+      <div class="step-circle">
+        <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 21h6M12 3a6 6 0 0 1 6 6c0 2.22-1.2 4.16-3 5.2V17H9v-2.8A6 6 0 0 1 6 9a6 6 0 0 1 6-6z"/>
+        </svg>
+      </div>
+      <div class="step-num">01</div>
+      <div class="step-name">Discover</div>
+      <div class="step-desc">We learn about your business, goals and target audience.</div>
+    </div>
+
+    <div class="process-dots"><div class="pdot"></div><div class="pdot"></div><div class="pdot"></div></div>
+
+    <!-- 02 PLAN -->
+    <div class="process-step">
+      <div class="step-circle">
+        <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M17 3a2.83 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/>
+        </svg>
+      </div>
+      <div class="step-num">02</div>
+      <div class="step-name">Plan</div>
+      <div class="step-desc">We create a strategic plan and concept tailored to your needs.</div>
+    </div>
+
+    <div class="process-dots"><div class="pdot"></div><div class="pdot"></div><div class="pdot"></div></div>
+
+    <!-- 03 DESIGN & CREATE -->
+    <div class="process-step">
+      <div class="step-circle">
+        <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="3"/>
+          <path d="M12 2v3m0 14v3M4.22 4.22l2.12 2.12m11.32 11.32 2.12 2.12M2 12h3m14 0h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/>
+        </svg>
+      </div>
+      <div class="step-num">03</div>
+      <div class="step-name">Design &amp; Create</div>
+      <div class="step-desc">Our team brings the concept to life with creativity and precision.</div>
+    </div>
+
+    <div class="process-dots"><div class="pdot"></div><div class="pdot"></div><div class="pdot"></div></div>
+
+    <!-- 04 REVISE & REFINE -->
+    <div class="process-step">
+      <div class="step-circle">
+        <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/>
+        </svg>
+      </div>
+      <div class="step-num">04</div>
+      <div class="step-name">Revise &amp; Refine</div>
+      <div class="step-desc">We refine the work based on your feedback to ensure perfection.</div>
+    </div>
+
+    <div class="process-dots"><div class="pdot"></div><div class="pdot"></div><div class="pdot"></div></div>
+
+    <!-- 05 DELIVER -->
+    <div class="process-step">
+      <div class="step-circle">
+        <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/>
+        </svg>
+      </div>
+      <div class="step-num">05</div>
+      <div class="step-name">Deliver</div>
+      <div class="step-desc">Final deliverables are delivered after full payment.</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══ CONTACT ════════════════════════════════════════════════ -->
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <span class="section-eyebrow reveal">Get In Touch</span>
+    <h2 class="section-title reveal">Let's make your brand <span style="color:var(--orange)">shine</span></h2>
+    <div class="divider" style="margin:0 auto 0"></div>
+    <div class="contact-cards">
+
+      <!-- Phone -->
+      <a class="contact-card reveal" href="tel:+94711152309">
+        <div class="contact-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ff4d00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.69 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.18 6.18l.91-.91a2 2 0 0 1 2.11-.45c.91.33 1.85.56 2.81.69A2 2 0 0 1 22 16.92z"/>
+          </svg>
+        </div>
+        <div class="contact-type">Phone</div>
+        <div class="contact-value">+94 71 115 2309</div>
+      </a>
+
+      <!-- WhatsApp — same stroke style as Phone & Email -->
+      <a class="contact-card reveal" href="https://wa.me/94711152309" target="_blank">
+        <div class="contact-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ff4d00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+          </svg>
+        </div>
+        <div class="contact-type">WhatsApp</div>
+        <div class="contact-value">+94 71 115 2309</div>
+      </a>
+
+      <!-- Email -->
+      <a class="contact-card reveal" href="mailto:hellolumetra@gmail.com">
+        <div class="contact-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ff4d00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <polyline points="2,4 12,13 22,4"/>
+          </svg>
+        </div>
+        <div class="contact-type">Email</div>
+        <div class="contact-value">hellolumetra@gmail.com</div>
+      </a>
+
+      <!-- Facebook -->
+      <a class="contact-card reveal" href="https://www.facebook.com/lumetramedia" target="_blank">
+        <div class="contact-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ff4d00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+          </svg>
+        </div>
+        <div class="contact-type">Facebook</div>
+        <div class="contact-value">@lumetramedia</div>
+      </a>
+
+    </div>
+
+    <div class="social-row reveal">
+      <a class="social-btn" href="https://www.facebook.com/lumetramedia" target="_blank">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+        </svg>
+        Facebook
+      </a>
+      <a class="social-btn" href="mailto:hellolumetra@gmail.com">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/>
+        </svg>
+        Email Us
+      </a>
+      <a class="social-btn" href="https://wa.me/94711152309" target="_blank">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+        </svg>
+        WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══════════════════════════════════════════════════ -->
+<footer>
+  <a href="#" class="footer-logo">
+    <img class="footer-icon" src="lumetra-assets/logo.webp" alt="Lumetra Icon"/>
+    <img class="footer-name" src="lumetra-assets/name_logo.webp" alt="Lumetra"/>
+  </a>
+  <p>124/1, Weliya (south), Minuwangoda, Sri Lanka &nbsp;·&nbsp; <a href="mailto:hellolumetra@gmail.com">hellolumetra@gmail.com</a></p>
+  <p style="margin-top:10px;opacity:.5">© 2025 Lumetra. The Light That Guides Creativity.</p>
+</footer>
+
+<!-- Load project data first, then the main script -->
+<script src="projects.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

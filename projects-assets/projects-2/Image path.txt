@@ -1,0 +1,1 @@
+image: "file:///D:/Lumetra/Graphics/Portfolio/Project Images/yourimage.jpg",
