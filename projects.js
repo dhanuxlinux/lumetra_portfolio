@@ -27,8 +27,8 @@
 
 const PROJECTS = [
   {
-    title:      "Apex Clothing Co. - Brand Identity",
-    shortTitle: "Apex Clothing Co.",
+    title:      "AWỌ Leather - Brand Identity",
+    shortTitle: "AWỌ Leather",
     category:   "Brand Design",
     image:      "",        // ← Thumbnail (leave "" to use CSS art)
     theme:      "brand",   // ← CSS art theme
